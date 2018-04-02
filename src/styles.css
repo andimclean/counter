@@ -1,1 +1,24 @@
 /* You can add global styles to this file, and also import other style files */
+body {
+  width: 400vw;
+  height: 400vh;
+  margin: 0;
+  background-image: url('assets/background.png')
+}
+
+.clickable {
+  position: fixed;
+  width: 250px;
+  height: 250px;
+  background-color: yellow;
+  display: inline-block;
+  left: 200vw;
+  top: 200vh;
+  margin: -125px;
+  border: 1px solid lightgrey;
+}
+
+.fixed {
+  
+  top:50px;
+}

@@ -3,16 +3,21 @@ import { NgModule } from '@angular/core';
 
 
 import { AppComponent } from './app.component';
+import { CountService } from './count.service';
+import { ClickableBoxComponent } from './clickable-box/clickable-box.component';
+import { CountDisplayerComponent } from './count-displayer/count-displayer.component';
 
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    ClickableBoxComponent,
+    CountDisplayerComponent
   ],
   imports: [
     BrowserModule
   ],
-  providers: [],
+  providers: [CountService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
